@@ -1,5 +1,5 @@
 - name: Initial testhostname
-  hosts: congluent
+  hosts: confluent
   strategy: free
   become: true
   tasks:
