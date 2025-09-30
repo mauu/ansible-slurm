@@ -5,4 +5,4 @@
   tasks:
     - name: Check hostname
       ansible.builtin.shell:
-        "hostnmame"
+        "hostname"
