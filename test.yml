@@ -1,1 +1,8 @@
-
+- name: Initial testhostname
+  hosts: congluent
+  strategy: free
+  become: true
+  tasks:
+    - name: Check hostname
+      ansible.builtin.shell:
+        "hostnmame"
